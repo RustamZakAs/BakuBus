@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BakuBusX"
+             x:Class="BakuBusX.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <!--<Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Entry x:Name="User" Placeholder="İstifadəçi adı"></Entry>
+        <Entry x:Name="Pass" Placeholder="Parol"></Entry>-->
+        <Button x:Name="GoMap" Clicked="Go_Map_Clicked" Text="Go Map"></Button>
+        <Button x:Name="Close" Clicked="Close_Clicked" Text="Exit"></Button>
+    </StackLayout>
+
+</ContentPage>
