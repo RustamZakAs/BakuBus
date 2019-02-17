@@ -32,7 +32,7 @@ namespace BakuBusX
                 await DisplayAlert(appName, "Error", "Cancel");
             }
 
-            
+            await Navigation.PushAsync(new MapView());          
         }
 
         private void Close_Clicked(object sender, EventArgs e)
