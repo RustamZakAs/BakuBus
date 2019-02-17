@@ -11,7 +11,8 @@ namespace BakuBusX
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new MapView();
         }
 
         protected override void OnStart()

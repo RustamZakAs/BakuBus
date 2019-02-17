@@ -9,5 +9,8 @@
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
+        <maps:Map >
+            
+        </maps:Map>
     </ContentPage.Content>
 </ContentPage>
